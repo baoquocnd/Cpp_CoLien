@@ -1,7 +1,11 @@
 #include <iostream>
 using namespace std;
-int main(){
+int main()
+{
+    // input:
     char c;
-    c='x';
-    cout<<c;
+    // process:
+    c = 'x';
+    // output:
+    cout << c;
 }

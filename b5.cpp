@@ -2,7 +2,12 @@
 #include <iomanip>
 
 using namespace std;
-int main(){
+int main()
+{
+    // input:
     double a = 7.5, b = 3.8;
-    cout <<"Area = "<<fixed<<setprecision(4)<<a*b;
+    // process:
+    double x = a * b;
+    // output:
+    cout << "Area = " << fixed << setprecision(4) << x;
 }

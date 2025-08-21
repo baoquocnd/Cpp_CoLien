@@ -3,7 +3,10 @@
 using namespace std;
 
 int main(){
-    double a = 10.5;
-    double b = 7;
-    cout << fixed<<setprecision(3)<<a/b;
+    //input:
+    double a = 10.5, b = 7;
+    //process:
+    double x = a/b;
+    //output:
+    cout << fixed<<setprecision(3)<<x;
 }
