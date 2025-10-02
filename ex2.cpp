@@ -30,7 +30,9 @@ int check(int n, int s){
 }
 
 void LietKe(int n, int s){
-    for (int i = )
+    for (int i = pow(10,n-1); i < pow(10,n); i++){
+        if (snt(i) && check(i,s)) cout << i<<" ";
+    }
 }
 
 int main(){
