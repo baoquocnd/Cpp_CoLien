@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void PhanTichTichNT(int n){
+void PhanTichNT(int n){
     for (int i = 2; i<= sqrt(n); i++){
         if (n%i==0){
             while (n%i==0){
@@ -38,9 +38,8 @@ void LietKe(int n, int s){
 int main(){
     int n; cin>>n;
     int choice; cin>>choice;
-
     if (choice==1){
-        PhanTichTichNT(n);
+        PhanTichNT(n);
     }else{
         int s; cin>>s;
         LietKe(n,s);
